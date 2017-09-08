@@ -1,0 +1,5 @@
+io\egen\sensor\Emulator.class
+com\egen\challenge\ConsumerService\controller\SensorController.class
+com\egen\challenge\ConsumerService\App.class
+com\egen\challenge\ConsumerService\Weight.class
+com\egen\challenge\ConsumerService\SensorRepository.class
