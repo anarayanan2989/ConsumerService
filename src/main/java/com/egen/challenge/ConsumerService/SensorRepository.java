@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SensorRepository extends MongoRepository<Weight,String>{
-	List<Weight> findByTimeRange(@Param("start") String startTime, @Param("end") String endTime);
+	List<Weight> findBytimeStamp(@Param("start") String startTime, @Param("end") String endTime);
 }

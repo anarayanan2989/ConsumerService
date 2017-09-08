@@ -37,8 +37,8 @@ public class SensorController {
 	}
 	
 	@PostMapping(path="/findRange", produces = MediaType.APPLICATION_JSON_VALUE)
-	public List<Weight> findByTimeRange(@RequestParam(required=true) String startTime, @RequestParam(required = true) String endTime){
-		return sensor.findByTimeRange(startTime, endTime);
+	public List<Weight> findBytimeStamp(@RequestParam(required=true) String startTime, @RequestParam(required = true) String endTime){
+		return sensor.findBytimeStamp(startTime, endTime);
 	}
 	
 	/*@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE)
